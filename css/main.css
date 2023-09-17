@@ -1,0 +1,223 @@
+
+body {
+    margin-top: 2rem;
+}
+.container {
+    margin: auto;
+    max-width: 69.375rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "one one one"
+      "two two three"
+      "four five three"
+      "six seven eight";
+  }
+  
+  .one { 
+    flex-direction: row;
+    height: 3.825rem;
+    grid-area: one; 
+}
+
+.imgw {
+    margin-top: .8rem;
+}
+
+a {
+    color: var(--Gunmetal, #5E607A);;
+    text-decoration: none;
+    margin-top: 1.25rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 2.5rem ;
+    float: right;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+  
+  .two { 
+    background-image: url("/images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19.13rem;
+    grid-area: two; 
+}
+  
+  .three {
+    background-color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 21.969rem;
+    grid-area: three; 
+}
+.three hr {
+    color: var(--Yellow, #E9AA52);
+}
+.three h1 {
+    color: var(--Yellow, #E9AA52);
+}
+
+.three h2 {
+    color: white;
+    padding-top: 1.5rem;
+    font-size: 1.25rem;
+}
+.three h2:hover {
+    color: var(--Yellow, #E9AA52);
+}
+
+.three p {
+    color: var(--Silver, #C5C6CE);
+}
+  
+.four {
+    margin: auto;
+    font-size: 1.8rem;
+    height: 11.478rem;
+    grid-area: four; 
+}
+
+.four h1{
+    margin-top: 0rem;
+}
+  
+.five { 
+    height: 11.478rem;
+    grid-area: five; 
+}
+
+.five p{
+    font-size: 1.2rem;
+    color: var(--Gunmetal, #5E607A);
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0 2rem;
+    height: 3rem;
+    font-size: 1rem;
+    max-width: 12rem;
+    height: 3.563rem;
+}
+  
+  .six {
+    margin-top: 2rem;
+    gap: 1rem; 
+    max-width: 21.969rem;
+    display: flex;
+    flex-direction: row;
+    height: 8.25rem;
+    grid-area: six; 
+}
+
+.p6 {
+    color: var(--Gunmetal, #5E607A);
+}
+
+.p1{
+    font-weight: 700;
+    color: var(--Silver, #C5C6CE);
+    margin-top: .5rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.h1 {
+    margin-top: .2rem;
+}
+
+.h1:hover {
+    color: var(--Light-Vermillion, #F15D51);
+}
+
+
+.img6 {
+    background-image: url("/images/article1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8rem;
+}
+  
+  .seven { 
+    margin-top: 2rem;
+    gap: 1rem; 
+    max-width: 21.969rem;
+    display: flex;
+    flex-direction: row;
+    height: 8.25rem;
+    grid-area: seven; 
+}
+
+.p7 {
+    color: var(--Gunmetal, #5E607A);
+}
+
+.p2{
+    font-weight: 700;
+    color: var(--Silver, #C5C6CE);
+    margin-top: .5rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.h2 {
+    margin-top: .2rem;
+}
+
+.h2:hover {
+    color: var(--Light-Vermillion, #F15D51);
+}
+
+
+.img7 {
+    background-image: url("/images/article2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8rem;
+}
+  
+.eight { 
+    margin-top: 2rem;
+    gap: 1rem; 
+    max-width: 21.969rem;
+    display: flex;
+    flex-direction: row;
+    height: 8.25rem;
+    grid-area: eight; 
+}
+
+.p8{
+    color: var(--Gunmetal, #5E607A);
+}
+
+.p3{
+    font-weight: 700;
+    color: var(--Silver, #C5C6CE);
+    margin-top: .5rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.h3 {
+    margin-top: .2rem;
+}
+
+.h3:hover {
+    color: var(--Light-Vermillion, #F15D51);
+}
+
+
+.img8 {
+    background-image: url("/images/article3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8rem;
+}
+  
